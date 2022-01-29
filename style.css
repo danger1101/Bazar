@@ -1,0 +1,75 @@
+:root{
+    --primary:#0d6efd
+    --dark:#21252f
+    --body:#888
+    --white:#fff
+    --box-shadow:0px 8px 22px rgb(255,0,0);
+    --transition: all 0.4s ease;
+}
+body{
+    font-family: monospace;
+    line-height: 1.10;
+    color: var(--body);
+}
+h1,h2,h3,h4,h5,h6,.displey-4{
+    color: var(--dark);
+    font-weight: 700;
+
+}
+a{
+    text-decoration: none;
+    color: var(--dark)
+}
+img{
+    width: 100%;
+
+}
+.navbar-brand h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+    box-shadow: var(--box-shadow);
+
+}
+.navbar .nav-link{
+    font-size: 14px;
+    font-weight: 700;
+}
+.btn{
+    padding: 14px 18px;
+    border-width: 2px;
+    border-radius: 0;
+}
+.hero{
+    background-image: url(cyberpunk-futuristic-computer-interfaces-wallpaper-preview.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+
+}
+.hero::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(21, 20,51, 0.8);
+    z-index: -1;
+}
+.col-lg-7 h1{
+    color: blanchedalmond;
+}
+h4{
+    color: darkred;
+}
+.dark{
+    font-size: 90px;
+    text-align: center;
+    color: white;
+}
+.aa h1{
+    font-size: 300px;
+    text-align: center;
+}
